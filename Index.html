@@ -1,0 +1,998 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+
+    <!-- Basic Page Needs
+  ================================================== -->
+    <meta charset="utf-8">
+    <title>Bot Shreyasi</title>
+
+    <!-- Mobile Specific Metas
+  ================================================== -->
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="description" content="Bootstrap App Landing Template">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=5.0">
+    <meta name="author" content="Themefisher">
+    <meta name="generator" content="Themefisher Small Apps Template v1.0">
+
+    <!-- Favicon -->
+    <link rel="shortcut icon" type="image/x-icon" href="https://botshreyasi.com/Landing_page/images/BS Logo.png" />
+
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link
+        href="https://fonts.googleapis.com/css2?family=Bebas+Neue&family=Orbitron:wght@400..900&family=Roboto:ital,wght@1,100&display=swap"
+        rel="stylesheet">
+
+    <!-- PLUGINS CSS STYLE -->
+    <link rel="stylesheet" href="https://botshreyasi.com/Landing_page/plugins/bootstrap/bootstrap.min.css">
+    <link rel="stylesheet" href="https://botshreyasi.com/Landing_page/plugins/themify-icons/themify-icons.css">
+    <link rel="stylesheet" href="https://botshreyasi.com/Landing_page/plugins/slick/slick.css">
+    <link rel="stylesheet" href="https://botshreyasi.com/Landing_page/plugins/slick/slick-theme.css">
+    <link rel="stylesheet" href="https://botshreyasi.com/Landing_page/plugins/fancybox/jquery.fancybox.min.css">
+    <link rel="stylesheet" href="https://botshreyasi.com/Landing_page/plugins/aos/aos.css">
+
+    <!-- CUSTOM CSS -->
+    <link href="https://botshreyasi.com/Landing_page/css/style.css" rel="stylesheet">
+
+
+    <!-- Form Code -->
+    <script type="text/javascript">
+        /** This section is only needed once per page if manually copying **/
+        if (typeof MauticSDKLoaded == 'undefined') {
+            var MauticSDKLoaded = true;
+            var head = document.getElementsByTagName('head')[0];
+            var script = document.createElement('script');
+            script.type = 'text/javascript';
+            script.src = 'http://crm.b0t.in/media/js/mautic-form.js?v17e8d380';
+            script.onload = function () {
+                MauticSDK.onLoad();
+            };
+            head.appendChild(script);
+            var MauticDomain = 'http://crm.b0t.in';
+            var MauticLang = {
+                'submittingMessage': "Please wait..."
+            }
+        } else if (typeof MauticSDK != 'undefined') {
+            MauticSDK.onLoad();
+        }
+    </script>
+    <style type="text/css" scoped>
+        .mauticform_wrapper {
+            max-width: 600px;
+            margin: 10px auto;
+        }
+
+        .mauticform-innerform {}
+
+        .mauticform-post-success {}
+
+        .mauticform-name {
+            font-weight: bold;
+            font-size: 1.5em;
+            margin-bottom: 3px;
+        }
+
+        .mauticform-description {
+            margin-top: 2px;
+            margin-bottom: 10px;
+        }
+
+        .mauticform-error {
+            margin-bottom: 10px;
+            color: red;
+        }
+
+        .mauticform-message {
+            margin-bottom: 10px;
+            color: green;
+        }
+
+        .mauticform-row {
+            display: block;
+            margin-bottom: 20px;
+        }
+
+        .mauticform-label {
+            font-size: 1.1em;
+            display: block;
+            font-weight: bold;
+            margin-bottom: 5px;
+        }
+
+        .mauticform-row.mauticform-required .mauticform-label:after {
+            color: #e32;
+            content: " *";
+            display: inline;
+        }
+
+        .mauticform-helpmessage {
+            display: block;
+            font-size: 0.9em;
+            margin-bottom: 3px;
+        }
+
+        .mauticform-errormsg {
+            display: block;
+            color: red;
+            margin-top: 2px;
+        }
+
+        .mauticform-selectbox,
+        .mauticform-input,
+        .mauticform-textarea {
+            width: 100%;
+            padding: 0.5em 0.5em;
+            border: 1px solid #CCC;
+            background: #fff;
+            box-shadow: 0px 0px 0px #fff inset;
+            border-radius: 4px;
+            box-sizing: border-box;
+        }
+
+        .mauticform-checkboxgrp-row {}
+
+        .mauticform-checkboxgrp-label {
+            font-weight: normal;
+        }
+
+        .mauticform-checkboxgrp-checkbox {}
+
+        .mauticform-radiogrp-row {}
+
+        .mauticform-radiogrp-label {
+            font-weight: normal;
+        }
+
+        .mauticform-radiogrp-radio {}
+
+        .mauticform-button-wrapper .mauticform-button.btn-default,
+        .mauticform-pagebreak-wrapper .mauticform-pagebreak.btn-default {
+            color: #5d6c7c;
+            background-color: #ffffff;
+            border-color: #dddddd;
+        }
+
+        .mauticform-button-wrapper .mauticform-button,
+        .mauticform-pagebreak-wrapper .mauticform-pagebreak {
+            display: inline-block;
+            margin-bottom: 0;
+            font-weight: 600;
+            text-align: center;
+            vertical-align: middle;
+            cursor: pointer;
+            background-image: none;
+            border: 1px solid transparent;
+            white-space: nowrap;
+            padding: 6px 12px;
+            font-size: 13px;
+            line-height: 1.3856;
+            border-radius: 3px;
+            -webkit-user-select: none;
+            -moz-user-select: none;
+            -ms-user-select: none;
+            user-select: none;
+        }
+
+        .mauticform-button-wrapper .mauticform-button.btn-default[disabled],
+        .mauticform-pagebreak-wrapper .mauticform-pagebreak.btn-default[disabled] {
+            background-color: #ffffff;
+            border-color: #dddddd;
+            opacity: 0.75;
+            cursor: not-allowed;
+        }
+
+        .mauticform-pagebreak-wrapper .mauticform-button-wrapper {
+            display: inline;
+        }
+    </style>
+
+    <style type="text/css" scoped>
+        .mauticform-field-hidden {
+            display: none
+        }
+    </style>
+
+    <!-- CountDown Style -->
+
+    <!-- <style>
+        @import url('https://fonts.googleapis.com/css2?family=Poppins:wght@200;300;400;500;600;700;800;900&display=swap');
+
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+    </style>
+
+
+
+    <!-- Form  -->
+    <script type="text/javascript">
+        /** This section is only needed once per page if manually copying **/
+        if (typeof MauticSDKLoaded == 'undefined') {
+            var MauticSDKLoaded = true;
+            var head = document.getElementsByTagName('head')[0];
+            var script = document.createElement('script');
+            script.type = 'text/javascript';
+            script.src = 'http://crm.b0t.in/media/js/mautic-form.js?v17e8d380';
+            script.onload = function () {
+                MauticSDK.onLoad();
+            };
+            head.appendChild(script);
+            var MauticDomain = 'http://crm.b0t.in';
+            var MauticLang = {
+                'submittingMessage': "Please wait..."
+            }
+        } else if (typeof MauticSDK != 'undefined') {
+            MauticSDK.onLoad();
+        }
+    </script>
+
+    <style type="text/css" scoped>
+        .mauticform_wrapper {
+            max-width: 600px;
+            margin: 10px auto;
+        }
+
+        .mauticform-innerform {}
+
+        .mauticform-post-success {}
+
+        .mauticform-name {
+            font-weight: bold;
+            font-size: 1.5em;
+            margin-bottom: 3px;
+        }
+
+        .mauticform-description {
+            margin-top: 2px;
+            margin-bottom: 10px;
+        }
+
+        .mauticform-error {
+            margin-bottom: 10px;
+            color: red;
+        }
+
+        .mauticform-message {
+            margin-bottom: 10px;
+            color: green;
+        }
+
+        .mauticform-row {
+            display: block;
+            margin-bottom: 20px;
+        }
+
+        .mauticform-label {
+            font-size: 1.1em;
+            display: block;
+            font-weight: bold;
+            margin-bottom: 5px;
+        }
+
+        .mauticform-row.mauticform-required .mauticform-label:after {
+            color: #e32;
+            content: " *";
+            display: inline;
+        }
+
+        .mauticform-helpmessage {
+            display: block;
+            font-size: 0.9em;
+            margin-bottom: 3px;
+        }
+
+        .mauticform-errormsg {
+            display: block;
+            color: red;
+            margin-top: 2px;
+        }
+
+        .mauticform-selectbox,
+        .mauticform-input,
+        .mauticform-textarea {
+            width: 100%;
+            padding: 0.5em 0.5em;
+            border: 1px solid #CCC;
+            background: #fff;
+            box-shadow: 0px 0px 0px #fff inset;
+            border-radius: 4px;
+            box-sizing: border-box;
+        }
+
+        .mauticform-checkboxgrp-row {}
+
+        .mauticform-checkboxgrp-label {
+            font-weight: normal;
+        }
+
+        .mauticform-checkboxgrp-checkbox {}
+
+        .mauticform-radiogrp-row {}
+
+        .mauticform-radiogrp-label {
+            font-weight: normal;
+        }
+
+        .mauticform-radiogrp-radio {}
+
+        .mauticform-button-wrapper .mauticform-button.btn-default,
+        .mauticform-pagebreak-wrapper .mauticform-pagebreak.btn-default {
+            color: #5d6c7c;
+            background-color: #ffffff;
+            border-color: #dddddd;
+        }
+
+        .mauticform-button-wrapper .mauticform-button,
+        .mauticform-pagebreak-wrapper .mauticform-pagebreak {
+            display: inline-block;
+            margin-bottom: 0;
+            font-weight: 600;
+            text-align: center;
+            vertical-align: middle;
+            cursor: pointer;
+            background-image: none;
+            border: 1px solid transparent;
+            white-space: nowrap;
+            padding: 6px 12px;
+            font-size: 13px;
+            line-height: 1.3856;
+            border-radius: 3px;
+            -webkit-user-select: none;
+            -moz-user-select: none;
+            -ms-user-select: none;
+            user-select: none;
+        }
+
+        .mauticform-button-wrapper .mauticform-button.btn-default[disabled],
+        .mauticform-pagebreak-wrapper .mauticform-pagebreak.btn-default[disabled] {
+            background-color: #ffffff;
+            border-color: #dddddd;
+            opacity: 0.75;
+            cursor: not-allowed;
+        }
+
+        .mauticform-pagebreak-wrapper .mauticform-button-wrapper {
+            display: inline;
+        }
+    </style>
+
+    <style type="text/css" scoped>
+        .mauticform-field-hidden {
+            display: none
+        }
+    </style>
+
+    <style>
+        @media only screen and (max-width: 520px) {
+            #Logo {
+                height: 60px;
+                width: 60px;
+                margin-top: 20px;
+                margin-left: 20px;
+            }
+        }
+
+        @media only screen and (min-width: 521px) {
+            #Logo {
+                height: 90px;
+                width: 90px;
+                margin-top: 30px;
+                margin-left: 40px;
+            }
+        }
+
+
+        @media screen and (max-width: 767px) {
+            #hero1 {
+                margin-bottom: 30px;
+            }
+
+            #hero2 {
+                margin-bottom: 50px;
+            }
+
+            #hero3 {
+                margin-bottom: 50px;
+            }
+        }
+
+        @media screen and (max-width: 769px) {
+            #What {
+                flex-direction: column-reverse;
+            }
+        }
+
+        @media screen and (max-width: 767px) {
+            #days {
+                font-size: 15px;
+                font-weight: 500px;
+                margin-left: 10px;
+
+            }
+
+            #hours {
+                font-size: 15px;
+                font-weight: 500px;
+                margin-left: 10px;
+            }
+
+            #min {
+                size: 15px;
+                font-weight: 500px;
+                margin-left: 5px;
+            }
+
+            #sec {
+                size: 15px;
+                font-weight: 500px;
+                margin-left: 4px;
+            }
+
+
+            #days1 {
+                size: 15px;
+                font-weight: 500px;
+
+            }
+
+            #hours1 {
+                size: 15px;
+                font-weight: 500px;
+            }
+
+            #min1 {
+                size: 15px;
+                font-weight: 500px;
+            }
+
+            #sec1 {
+                size: 15px;
+                font-weight: 500px;
+            }
+
+            #heading {
+                font-weight: 500;
+                margin-left: 11px;
+            }
+
+        }
+
+
+        @media screen and (min-width: 767px) {
+            #days {
+                font-size: 25px;
+                font-weight: 600px;
+
+            }
+
+            #hours {
+                font-size: 25px;
+                font-weight: 600px;
+            }
+
+            #min {
+                font-size: 25px;
+                font-weight: 600px;
+            }
+
+            #sec {
+                font-size: 25px;
+                font-weight: 600px;
+            }
+
+
+            #days1 {
+                font-size: 25px;
+                font-weight: 600px;
+
+            }
+
+            #hours1 {
+                font-size: 25px;
+                font-weight: 600px;
+            }
+
+            #min1 {
+                font-size: 25px;
+                font-weight: 600px;
+            }
+
+            #sec1 {
+                font-size: 25px;
+                font-weight: 600px;
+            }
+
+            #heading {
+                font-weight: 700;
+            }
+        }
+
+        @media screen and (max-width: 767px){
+            .desc{
+                /* display: flex; */
+                /* justify-content: center;
+                align-items: center; */
+                text-align: center;
+            }
+        }
+
+
+
+
+
+
+
+    </style>
+
+
+
+</head>
+
+<body class="body-wrapper" data-spy="scroll" data-target=".privacy-nav">
+
+
+    <section class="section gradient-banner">
+        <div class="shapes-container">
+            <img src="https://botshreyasi.com/Landing_page/images/BS Logo.png" id="Logo">
+            <div class="shape" data-aos="fade-down-left" data-aos-duration="1500" data-aos-delay="100"></div>
+            <div class="shape" data-aos="fade-down" data-aos-duration="1000" data-aos-delay="100"></div>
+            <div class="shape" data-aos="fade-up-right" data-aos-duration="1000" data-aos-delay="200"></div>
+            <div class="shape" data-aos="fade-up" data-aos-duration="1000" data-aos-delay="200"></div>
+            <div class="shape" data-aos="fade-down-left" data-aos-duration="1000" data-aos-delay="100"></div>
+            <div class="shape" data-aos="fade-down-left" data-aos-duration="1000" data-aos-delay="100"></div>
+            <div class="shape" data-aos="zoom-in" data-aos-duration="1000" data-aos-delay="300"></div>
+            <div class="shape" data-aos="fade-down-right" data-aos-duration="500" data-aos-delay="200"></div>
+            <div class="shape" data-aos="fade-down-right" data-aos-duration="500" data-aos-delay="100"></div>
+            <div class="shape" data-aos="zoom-out" data-aos-duration="2000" data-aos-delay="500"></div>
+            <div class="shape" data-aos="fade-up-right" data-aos-duration="500" data-aos-delay="200"></div>
+            <div class="shape" data-aos="fade-down-left" data-aos-duration="500" data-aos-delay="100"></div>
+            <div class="shape" data-aos="fade-up" data-aos-duration="500" data-aos-delay="0"></div>
+            <div class="shape" data-aos="fade-down" data-aos-duration="500" data-aos-delay="0"></div>
+            <div class="shape" data-aos="fade-up-right" data-aos-duration="500" data-aos-delay="100"></div>
+            <div class="shape" data-aos="fade-down-left" data-aos-duration="500" data-aos-delay="0"></div>
+        </div>
+        <div class="container">
+            <div class="row align-items-center" style="margin-top: 10px;">
+                <div class="col-md-4 order-1 order-md-2 text-center" id="hero1">
+                    <div style=" margin-bottom: 30px;">
+                        <a href="https://www.linkedin.com/in/hrarvindchaudhary/"><img class="img-fluid"
+                                src="Assets/person2.png" style="border-radius: 40%; height: 360px; width: 360px;" alt="screenshot"></a>
+                    </div>
+                    <div>
+                        <h6 style="color: white;"><a href="https://www.linkedin.com/in/hrarvindchaudhary/">Arvind
+                                Chaudhary</a></h6>
+                        <p style="color: white;">(Founder of Bot Shreyasi)</p>
+                    </div>
+                </div>
+
+
+                <div class="col-md-4 order-md-2 text-md-center text-md-center" id="hero2">
+                    <div class="wrapper"
+                        style="display: flex; flex-direction: row; align-items: center; justify-content: center; "
+                        id="Timer">
+                        <div>
+                            <h1 style="color: white;font-family: Orbitron, sans-serif; " id="heading">Starts In</h1>
+                            <div class="countdown-container" style="display: flex;  align-items: center; ">
+                                <div style="margin-right: 20px;">
+                                    <span id="days1" style="color: white; font-family: Orbitron, sans-serif;">Days</span>
+                                    <p id="days" class="big-text" style="color: white; font-family: Orbitron, sans-serif;">0</p>
+                                </div>
+                                <div style="margin-right: 20px;">
+                                    <span id="hours1" style="color: white; font-family: Orbitron, sans-serif;">Hours</span>
+                                    <p id="hours" class="big-text" style="color: white; font-family: Orbitron, sans-serif;">0</p>
+
+                                </div>
+                                <div style="margin-right: 20px;">
+                                    <span id="min1" style="color: white; font-family: Orbitron, sans-serif;">Min</span>
+                                    <p id="min" class="big-text" style="color: white; font-family: Orbitron, sans-serif;">0</p>
+
+                                </div>
+                                <div>
+                                    <span id="sec1" style="color: white; font-family: Orbitron, sans-serif;">Sec</span>
+                                    <p id="sec" class="big-text" style="color: white; font-family: Orbitron, sans-serif;">0</p>
+
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+
+
+                <div class="col-md-4 text-center order-1 order-md-2" id="hero3" style="margin-top: 10px;">
+                    <div>
+                        <a href="https://www.linkedin.com/in/saurabh-misra-826a282/"><img class="img-fluid"
+                                src="Assets/person4.png" style="border-radius: 50%; height: 360px; width: 360px;"
+                                alt="screenshot"></a>
+                    </div>
+                    <div>
+                        <h6 style="color: white;"><a href="https://www.linkedin.com/in/saurabh-misra-826a282/">Saurabh
+                                Misra</a></h6>
+                        <p style="color: white;">(Co-Founder of Knowlens Solutions)</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <!--====  End of Hero Section  ====-->
+
+
+    <section class="feature section pt-0" style="margin-top: 150px;">
+        <div class="container">
+            <div class="row" id="What">
+                <div class=" desc col-lg-5 ml-auto justify-content-center" id="img1">
+                    <!-- Feature Mockup -->
+                    <div class="image-content" data-aos="fade-right">
+                        <img class="img-fluid" src="Assets/img1.png"
+                            style="height: 350px; width: 400px; border-radius: 10px;" alt="iphone">
+                    </div>
+                </div>
+                <div class="col-lg-7 mr-auto align-self-center">
+                    <div class="feature-content">
+                        <!-- Feature Title -->
+                        <h4 class="desc" style="font-weight: 600; margin-top: -1px; line-height: 40px;">The Ultimate Tech
+                            Awareness Webinar for Job Seekers</h4>
+                        <!-- Feature Description -->
+                        <p class="desc" style="line-height: 30px; margin-top: -10px;">Are you a job seeker looking to
+                            supercharge your career with the latest tech insights? Join us for an exclusive webinar that
+                            will transform the way you approach your job search. Discover the power of tech awareness
+                            and learn how staying ahead in the ever-evolving digital landscape can be your key to
+                            unlocking new opportunities.
+                        </p>
+                        <h5 class="desc" style="font-weight: 500;">Webinar Highlights </h5>
+                        <ul class="desc" style="margin-left: -20px;">
+                            <li class="desc"> Navigating the Tech-Driven Job Market</li>
+
+                            <li>
+                                Building a Tech-Aware Mindset
+                            </li>
+
+                            <li> Tools of the Trade</li>
+
+                            <li>
+
+                                Expert Panel Discussion
+                            </li>
+                        </ul>
+
+
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section class="feature section pt-0">
+        <div class="container">
+            <div class="row" id="Who">
+                <div class="col-lg-7 mr-auto align-self-center">
+                    <div class="feature-content">
+                        <!-- Feature Title -->
+                        <h4 class="desc" style="font-weight: 600; margin-top: -1px; line-height: 40px;">AI Recruitment
+                            and Job Seeker's Tech Awareness
+                        </h4>
+                        <!-- Feature Description -->
+                        <p class="desc" style="line-height: 30px; margin-top: -10px;">Are you ready to embark on a
+                            transformative journey into the realms of Artificial Intelligence (AI), Recruitment
+                            Strategies, and Tech Awareness for job seekers? This exclusive webinar is tailor-made for
+                            individuals who are passionate about staying ahead in the dynamic world of technology and
+                            are eager to explore how AI is reshaping both training programs and recruitment processes.
+                        </p>
+                        <h5 class="desc" style="font-weight: 500;">Who Should Attend</h5>
+                        <ul class="desc" style="margin-left: -20px;">
+                            <li> Job Seekers and Career Enthusiasts</li>
+
+                            </li>
+
+                            <li>
+                                HR and Recruitment Professionals
+                            </li>
+
+                            <li>
+                                Learning and Development Managers
+                            </li>
+                            <li>
+                                Tech Enthusiasts and Students
+                            </li>
+                        </ul>
+
+
+                    </div>
+                </div>
+                <div class="desc col-lg-5 ml-auto justify-content-center" id="img2">
+                    <!-- Feature Mockup -->
+                    <div class="image-content" data-aos="fade-right">
+                        <img class="img-fluid" src="Assets/img2.png"
+                            style="height: 350px; width: 400px; border-radius: 10px;" alt="iphone">
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+
+    <!-- Form Section -->
+
+
+
+    <section class="feature section pt-0" id="TargetSection">
+        <div class="container">
+            <div class="row">
+                <div class="col-lg-6 ml-auto align-self-center mb-4 text-center">
+                    <div class="feature-content">
+                        <h4 style="font-weight: 600; line-height: 60px; margin-top: -20px;">Reserve Your Seat</h4>
+
+                        <p style="line-height: 30px; text-align: center;">Secure your spot for this enlightening webinar where AI,
+                            Recruitment, and Tech Awareness converge to shape the future of careers. Register now and
+                            join us for an immersive exploration into the opportunities that lie at the intersection of
+                            AI and professional growth.</p>
+                    </div>
+                </div>
+                <div class="col-lg-6 mr-auto justify-content-center">
+
+
+                    <div id="mauticform_wrapper_formwebinar1" class="mauticform_wrapper">
+                        <form autocomplete="false" role="form" method="post"
+                            action="http://crm.b0t.in/form/submit?formId=3" id="mauticform_formwebinar1"
+                            data-mautic-form="formwebinar1" enctype="multipart/form-data">
+                            <div class="mauticform-error" id="mauticform_formwebinar1_error"></div>
+                            <div class="mauticform-message" id="mauticform_formwebinar1_message"></div>
+                            <div class="mauticform-innerform">
+                                <div class="mauticform-page-wrapper mauticform-page-1" data-mautic-form-page="1">
+
+
+
+
+
+
+
+
+
+
+                                    <div class="form-row mb-4">
+                                        <div id="mauticform_formwebinar1_first_name"
+                                            class="mauticform-row mauticform-text mauticform-field-1 mauticform-required"
+                                            data-validate="first_name" data-validation-type="text">
+                                            <label id="mauticform_label_formwebinar1_first_name"
+                                                for="mauticform_input_formwebinar1_first_name"
+                                                class="mauticform-label">First name</label>
+
+                                            <input type="text" name="mauticform[first_name]" value=""
+                                                id="mauticform_input_formwebinar1_first_name" class="mauticform-input"
+                                                style="width: 250px;">
+
+                                            <span class="mauticform-errormsg" style="display:none;">Please enter your
+                                                first name</span>
+                                        </div>
+
+                                        &nbsp; &nbsp; &nbsp; &nbsp;
+
+                                        <div id="mauticform_formwebinar1_last_name"
+                                            class="mauticform-row mauticform-text mauticform-field-2 mauticform-required"
+                                            data-validate="last_name" data-validation-type="text">
+                                            <label id="mauticform_label_formwebinar1_last_name"
+                                                for="mauticform_input_formwebinar1_last_name"
+                                                class="mauticform-label">Last name</label>
+
+                                            <input type="text" name="mauticform[last_name]" value=""
+                                                id="mauticform_input_formwebinar1_last_name" class="mauticform-input"
+                                                style="width: 250px;">
+
+                                            <span class="mauticform-errormsg" style="display:none;">Please enter your
+                                                last name</span>
+                                        </div>
+                                    </div>
+
+
+
+
+
+
+
+
+
+
+
+                                    <div class="form-row mb-4">
+                                        <div id="mauticform_formwebinar1_email"
+                                            class="mauticform-row mauticform-email mauticform-field-3 mauticform-required"
+                                            data-validate="email" data-validation-type="email">
+                                            <label id="mauticform_label_formwebinar1_email"
+                                                for="mauticform_input_formwebinar1_email"
+                                                class="mauticform-label">Email</label>
+
+                                            <input type="email" name="mauticform[email]" value=""
+                                                id="mauticform_input_formwebinar1_email" class="mauticform-input"
+                                                style="width: 250px;">
+
+                                            <span class="mauticform-errormsg" style="display:none;">Please enter your
+                                                Email</span>
+                                        </div>
+
+                                        &nbsp; &nbsp; &nbsp; &nbsp;
+
+                                        <div id="mauticform_formwebinar1_job_title"
+                                            class="mauticform-row mauticform-text mauticform-field-4">
+                                            <label id="mauticform_label_formwebinar1_job_title"
+                                                for="mauticform_input_formwebinar1_job_title"
+                                                class="mauticform-label">Job title</label>
+
+                                            <input type="text" name="mauticform[job_title]" value=""
+                                                id="mauticform_input_formwebinar1_job_title" class="mauticform-input"
+                                                style="width: 250px;">
+
+                                            <span class="mauticform-errormsg" style="display:none;"></span>
+                                        </div>
+                                    </div>
+
+
+
+
+
+                                    <div id="mauticform_formwebinar1_submit"
+                                        class="mauticform-row mauticform-button-wrapper mauticform-field-5">
+                                        <button class="btn btn-default mauticform-button" name="mauticform[submit]"
+                                            value="1" id="mauticform_input_formwebinar1_submit"
+                                            type="submit">Submit</button>
+                                    </div>
+                                </div>
+                            </div><input type="hidden" name="mauticform[formId]" id="mauticform_formwebinar1_id"
+                                value="3">
+                            <input type="hidden" name="mauticform[return]" id="mauticform_formwebinar1_return" value="">
+                            <input type="hidden" name="mauticform[formName]" id="mauticform_formwebinar1_name"
+                                value="formwebinar1">
+
+                        </form>
+                    </div>
+
+
+                </div>
+            </div>
+        </div>
+    </section>
+
+
+
+
+
+    <!-- Footer -->
+    <footer>
+        <div class="footer-main align-items-center ">
+            <div class="container">
+                <div class="row">
+                    <div class="col-lg-4 col-md-12 m-md-auto align-self-center">
+                        <div class="block">
+                            <img src="https://botshreyasi.com/Landing_page/images/BS Logo.png"
+                                style="height: 110px; width: 110px; ">
+                            <!-- Social Site Icons -->
+                            <ul class="social-icon list-inline">
+                                <li class="list-inline-item">
+                                    <a href="https://www.facebook.com/Passivereferral"><i class="ti-facebook"></i></a>
+                                </li>
+                                <li class="list-inline-item">
+                                    <a href="https://twitter.com/BotShreyasi"><i class="ti-twitter"></i></a>
+                                </li>
+                                <li class="list-inline-item">
+                                    <a href="https://www.linkedin.com/company/botshreyasi/"><i
+                                            class="ti-instagram"></i></a>
+                                </li>
+                            </ul>
+                        </div>
+                    </div>
+                    <div class="col-lg-2 col-md-3 col-6 mt-5 mt-lg-0">
+                    </div>
+                    <div class="col-lg-2 col-md-3 col-6 mt-5 mt-lg-0">
+                        <div class="block-2">
+                            <h6>Features</h6>
+                            <ul>
+                                <li><a href="https://botshreyasi.com/nlp-sentiment-analysis">Voice AI Feature</a></li>
+                                <li><a href="https://botshreyasi.com/recruitment-artificial-intelligence">Virtual
+                                        Recruiter</a></li>
+                                <!-- <li><a href="blog.html">Blog</a></li> -->
+                            </ul>
+                        </div>
+                    </div>
+                    <div class="col-lg-2 col-md-3 col-6 mt-5 mt-lg-0">
+                        <div class="block-2">
+                            <h6>Company</h6>
+                            <ul>
+                                <li><a href="https://botshreyasi.com/TermsService">Privacy Policy</a></li>
+                                <li><a href="https://botshreyasi.com/BOT-Shreyasi-customer-support">Contact</a></li>
+                                <!-- <li><a href="team.html">Investor</a></li> -->
+                                <li><a href="https://botshreyasi.com/TermsService">Terms</a></li>
+                            </ul>
+                        </div>
+                    </div>
+                    <div class="col-lg-2 col-md-3 col-6 mt-5 mt-lg-0">
+                        <div class="block-2">
+                            <!-- heading -->
+                            <h6>Product</h6>
+                            <!-- links -->
+                            <ul>
+                                <li><a href="https://botshreyasi.com/automate-HR-workflows">Contact Center BOT
+                                    </a></li>
+                                <li><a href="https://botshreyasi.com/Augmented-voice-ai-recruitmentl">Recruitment
+                                        BOT</a></li>
+                            </ul>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </footer>
+
+
+    <!-- To Top -->
+    <div class="scroll-top-to">
+        <i class="ti-angle-up"></i>
+    </div>
+
+
+    <script src="https://botshreyasi.com/Landing_page/plugins/jquery/jquery.min.js"></script>
+    <script src="https://botshreyasi.com/Landing_page/plugins/bootstrap/bootstrap.min.js"></script>
+    <script src="https://botshreyasi.com/Landing_page/plugins/slick/slick.min.js"></script>
+    <script src="https://botshreyasi.com/Landing_page/plugins/fancybox/jquery.fancybox.min.js"></script>
+    <script src="https://botshreyasi.com/Landing_page/plugins/syotimer/jquery.syotimer.min.js"></script>
+    <script src="https://botshreyasi.com/Landing_page/plugins/aos/aos.js"></script>
+
+    <script>
+        document.addEventListener('DOMContentLoaded', function () {
+            var button = document.querySelector('.scroll-to-section');
+            button.addEventListener('click', function (event) {
+                if (this.hash !== "") {
+                    event.preventDefault();
+                    var hash = this.hash;
+                    console.log('Hash:', hash);
+                    document.querySelector(hash).scrollIntoView({
+                        behavior: 'smooth'
+                    });
+                }
+            });
+        });
+    </script>
+
+    <script src="https://botshreyasi.com/Landing_page/js/script.js"></script>
+
+    <!-- CountDown Script -->
+
+    <script>
+        let daysItem = document.querySelector("#days");
+        let hoursItem = document.querySelector("#hours");
+        let minItem = document.querySelector("#min");
+        let secItem = document.querySelector("#sec");
+
+
+        let countDown = () => {
+            let futureDate = new Date("7 february 2024");
+            let currentDate = new Date();
+            let myDate = futureDate - currentDate;
+            //console.log(myDate);
+
+            let days = Math.floor(myDate / 1000 / 60 / 60 / 24);
+
+            let hours = Math.floor(myDate / 1000 / 60 / 60) % 24;
+
+            let min = Math.floor(myDate / 1000 / 60) % 60;
+
+            let sec = Math.floor(myDate / 1000) % 60;
+
+            daysItem.innerHTML = days;
+            hoursItem.innerHTML = hours;
+            minItem.innerHTML = min;
+            secItem.innerHTML = sec;
+        }
+
+        countDown()
+
+        setInterval(countDown, 1000)
+
+
+    </script>
+
+</body>
+
+</html>
